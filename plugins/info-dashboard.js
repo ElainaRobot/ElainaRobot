@@ -19,13 +19,13 @@ ${htjava} 𝐓𝐈𝐌𝐄 ${htjava}\n⮕ ${getTime(last)}`
 			contextInfo: {
 				forwardingScore: fsizedoc,
 				externalAdReply: {
-                    body: '© 𝐒𝐤𝐲𝐁𝗼𝐭',
+                    body: '© 𝗘𝗹𝗮𝗶𝗻𝗮-𝘉𝘰𝘵𝘻'',
     containsAutoReply: true,
     mediaType: 1,
     mediaUrl: hwaifu.getRandom(), 
     renderLargerThumbnail: true,
     showAdAttribution: true,
-    sourceId: '© 𝐒𝐤𝐲𝐁𝗼𝐭',
+    sourceId: '© 𝗘𝗹𝗮𝗶𝗻𝗮-𝘉𝘰𝘵𝘻'',
     sourceType: 'PDF',
     previewType: 'PDF',
     sourceUrl: sgc,

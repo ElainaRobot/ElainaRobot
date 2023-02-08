@@ -18,19 +18,19 @@ await conn.sendButtonDoc(m.chat, cap, botdate, 'SewaBot', '.sewa', fkontak, {
 			contextInfo: {
 				forwardingScore: fsizedoc,
 				externalAdReply: {
-                    body: '© Amelia',
+                    body: '© 𝗘𝗹𝗮𝗶𝗻𝗮-𝘉𝘰𝘵𝘻',
     containsAutoReply: true,
     mediaType: 1,
     mediaUrl: hwaifu.getRandom(), 
     renderLargerThumbnail: true,
     showAdAttribution: true,
-    sourceId: '© PutraModz',
+    sourceId: '© 𝗘𝗹𝗮𝗶𝗻𝗮-𝘉𝘰𝘵𝘻',
     sourceType: 'PDF',
     previewType: 'PDF',
     sourceUrl: sgc,
     thumbnail: await(await fetch(`https://telegra.ph/file/25f6fa6ec92eb68ddd6db.jpg`)).buffer(),
     thumbnailUrl: sgc,
-    title: 'Amelia Group'  
+    title: '𝗘𝗹𝗮𝗶𝗻𝗮-𝘉𝘰𝘵𝘻 Group'  
 				}
 			}
 })

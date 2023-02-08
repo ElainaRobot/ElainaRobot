@@ -15,13 +15,13 @@ let str = `
 │ • *Ovo:* [${global.povo}]
 │ • *Link Aja:* [${global.plinkaja}]
 ❏────`
-let wibu = `https://telegra.ph/file/483565b363dbb609fd236.jpg` 
+let wibu = `https://telegra.ph/file/5783d2c38bd289510c9a2.jpg` 
 let thumb = await(await fetch(wibu)).buffer()
 conn.send3ButtonDoc(m.chat, str, botdate,'Sewa Bot','.sewa','QR+PAYMENT','.donasi1','Menu','.menu', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: "tautanwa",
     mediaType: "tautanwa",
-    description: "https://www.instagram.com/p/CevoCg5hG-p/?utm_source=ig_web_copy_link", 
-    title: 'AMELIA PUTRI SEPTIANY',
+    description: "https://www.facebook.com/profile.php?id=100083728134253", 
+    title: 'Inory and Wahab',
     body: bottime,
     thumbnail: thumb,
     sourceUrl: syt

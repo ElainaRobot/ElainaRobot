@@ -47,13 +47,13 @@ let handler = async (m, { conn, generateWAMessageFromContent, }) => {
 ╰────────────⬣`
 
 conn.sendButtonDoc(m.chat, '▷ʙᴏᴛ sᴛᴀᴛᴜs◁', sts, 'Owner', '.owner', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https//wa.me/6285759681568?text=Hᴀʟᴏ+ɢᴀɴᴛᴇɴɢᴋᴜ',
+    mediaUrl: 'https//wa.me/628229217681?text=Hᴀʟᴏ+ᴄᴀɴᴛɪᴋᴋᴜ',
     mediaType: 2, 
-    description: 'wa.me/6285759681568?text=Hᴀʟᴏ+ɢᴀɴᴛᴇɴɢᴋᴜ',
+    description: 'wa.me/6282229217681?text=Hᴀʟᴏ+ᴄᴀɴᴛɪᴋᴋᴜ',
     title: "Iɴɪ Grub Gᴡ!",
     body: wm,
     thumbnail: fs.readFileSync('./thumbnail.jpg'),
-    sourceUrl: 'https://chat.whatsapp.com/HUSKMik8Lck90NinohIbre'
+    sourceUrl: 'https://chat.whatsapp.com/IGVfMjqdUtpBn2bnmttFDb'
      }}
   })
 

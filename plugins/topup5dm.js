@@ -13,8 +13,8 @@
 import fetch from 'node-fetch'
   import axios from 'axios'
 let handler = async(m, { conn, usedPrefix, command, text }) => {
-  let owned = '6282214729677@s.whatsapp.net'
-  if(!text) throw `*Cara penggunaan :*\n\n${usedPrefix + command} id|nomor\n\n*Note:*\n*Contoh:* ${usedPrefix + command} 239814337|082214729677`;
+  let owned = '6282229217681@s.whatsapp.net'
+  if(!text) throw `*Cara penggunaan :*\n\n${usedPrefix + command} id|nomor\n\n*Note:*\n*Contoh:* ${usedPrefix + command} 1853318697|082229217681`;
   let [id, num] = text.split('|');
   let res = await fetch(`https://saipulanuar.ga/api/topup/epep1?id=${id}&nomor=${num}&apikey=9b95802c6f20`)
   let json = await res.json()
@@ -22,7 +22,7 @@ let handler = async(m, { conn, usedPrefix, command, text }) => {
     if (!json.status) throw json
   let babi2 = json.result.Qris
 	let babi = await(await fetch(babi2)).buffer()
-  if ((!id || !num)) throw `*Cara penggunaan :*\n\n${usedPrefix + command} id|nomor\n\n*Note:*\n*Contoh:* ${usedPrefix + command} 239814337|082214729677`;
+  if ((!id || !num)) throw `*Cara penggunaan :*\n\n${usedPrefix + command} id|nomor\n\n*Note:*\n*Contoh:* ${usedPrefix + command} 1853318697|082229217681`;
   let kimakkk = `*Id:* ${json.result.Id}
 *Jumlah:* ${json.result.Jumlah}
 *Nomor:* ${num}

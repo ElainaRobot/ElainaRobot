@@ -24,12 +24,12 @@ let str = `
 `
 
 conn.sendButtonDoc(m.chat, str, wm,' ᴏᴋᴇ ','huuu', m, { contextInfo: { externalAdReply: { showAdAttribution: false,
-    mediaUrl: 'https://instagram/l4c1f2r',
+    mediaUrl: 'https://www.facebook.com/profile.php?id=100083728134253',
     mediaType: 2, 
     description: sgc,
     title: '≪ Jᴏɪɴ Sɪɴɪ Cᴜʏ ⋟',
     body: wm,
-    thumbnail: await(await fetch("https://telegra.ph/file/1be321e2942f8045fc846.jpg")).buffer(),
+    thumbnail: await(await fetch("https://telegra.ph/file/e931f020fcc21615bfb9d.jpg")).buffer(),
     sourceUrl: sgc
   }
   } }) 

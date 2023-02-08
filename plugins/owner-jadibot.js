@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 
 //Plugin By Xynoz!!
 let handler = async (m, { conn, usedPrefix }) => {
-	let url = 'https://telegra.ph/file/f906fc225978ccaa06483.jpg'
+	let url = 'https://telegra.ph/file/170bdb7fe31ca65beeeaf.jpg'
 	conn.sendButton(m.chat, ' *❲ JADI BOT ❳*\n\n⎇ 14 Hari 13ᴋ\n⎇ 30 Hari 20ᴋ\n⎇ 40 Hari 27ᴋ\n⎇ 60 Hari 40ᴋ\n\n*ᴍɪɴᴀᴛ ᴄʜᴀᴛ ᴏᴡɴᴇʀ*', wm, await(await fetch(url)).buffer(), [['Owner',`/owner`]],m)
 }
 handler.command = /^(jadibot2)$/i

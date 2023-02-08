@@ -4,7 +4,7 @@ let handler  = async (m, { conn }) => {
 let tag = fs.readFileSync('./sticker/tag.webp')
 conn.sendFile(m.chat, tag, '', '', m)
 }
-handler.customPrefix = /^(@6283863727733|@6282214729677)$/i
+handler.customPrefix = /^(@6282229217681|@6282229217681)$/i
 handler.command = new RegExp
 
 export default handler

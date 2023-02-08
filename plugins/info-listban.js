@@ -16,7 +16,7 @@ ${cmenut} *Daftar User Terbanned*
 │ ${jid}
 `.trim()).join('\n') : ''}
 ${cmenuf}
-`.trim(), m, { contextInfo: { externalAdReply: { title: botdate, body: bottime, mediaType: 2, sourceUrl: sig, mediaUrl: sig, thumbnail: await(await fetch('https://telegra.ph/file/1836eec6c22d949829474.jpg')).buffer()}}})
+`.trim(), m, { contextInfo: { externalAdReply: { title: botdate, body: bottime, mediaType: 2, sourceUrl: sig, mediaUrl: sig, thumbnail: await(await fetch('https://telegra.ph/file/452815999a7ffc3f40a29.jpg')).buffer()}}})
 
 }
 handler.help = ['bannedlist']

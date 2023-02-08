@@ -54,9 +54,9 @@ let handler = async (m, { conn, usedPrefix, __dirname, text, command }) => {
   let speed = neww - old
   let cap = `*––––––『 BOT INFO 』––––––*
 ${readMore}
-🤖 ɴᴀᴍᴇ: 𝗭𝗶𝗿𝗼𝗕𝗼𝘁𝘇-𝗠𝗗
+🤖 ɴᴀᴍᴇ: 𝗘𝗹𝗮𝗶𝗻𝗮-𝘉𝘰𝘵𝘻
 🧩 ᴠᴇʀsɪᴏɴ: 1.3.0
-📚 ʟɪʙʀᴀʀʏ: Simple Bot WhatsApp By 𝗭𝗶𝗿𝗼-𝗠𝗗 𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟
+📚 ʟɪʙʀᴀʀʏ: Simple Bot WhatsApp By 𝗘𝗹𝗮𝗶𝗻𝗮-𝘉𝘰𝘵𝘻 𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟
 
 ⏳ ᴜᴩᴛɪᴍᴇ: ${uptime}
 📈 ᴅᴀᴛᴀʙᴀsᴇ: ${totalreg}
@@ -79,13 +79,13 @@ await conn.sendButtonDoc(m.chat, cap, botdate, 'Owner', usedPrefix + 'owner', fk
 			contextInfo: {
 				forwardingScore: fsizedoc,
 				externalAdReply: {
-                    body: '© 𝐙𝐢𝐫𝐨𝐁𝗼𝐭',
+                    body: '© 𝗘𝗹𝗮𝗶𝗻𝗮-𝘉𝘰𝘵𝘻',
     containsAutoReply: true,
     mediaType: 1,
     mediaUrl: hwaifu.getRandom(), 
     renderLargerThumbnail: true,
     showAdAttribution: true,
-    sourceId: '© 𝐒𝐤𝐲𝐁𝗼𝐭',
+    sourceId: '© 𝗘𝗹𝗮𝗶𝗻𝗮-𝘉𝘰𝘵𝘻'',
     sourceType: 'PDF',
     previewType: 'PDF',
     sourceUrl: sgc,
