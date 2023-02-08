@@ -169,6 +169,7 @@ let welc = `
 
                 *W E L C O M E*
 
+✦𝘉𝘌𝘉𝘈𝘕 𝘔𝘌𝘕𝘈𝘔𝘉𝘈𝘏✦
 ⫹⫺ @subject
 
 ⫹⫺ *DESCRIPTION*
