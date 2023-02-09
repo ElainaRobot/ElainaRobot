@@ -50,7 +50,7 @@ const readMore = more.repeat(4001)
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ NO OWNER ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.owner = [
-['6282229217681', 'ɪɴᴏʀʏ ᴀɴᴅ ᴡᴀʜᴀʙ', true],
+['6282229217681', '𝘐𝘯𝘰𝘳𝘺 𝘢𝘯𝘥 𝘞𝘢𝘩𝘢𝘣', true],
 ]
 global.autoketik = true //status auto mengetik (auto typing)
 global.available = true //status online (online)
@@ -58,7 +58,7 @@ global.available = true //status online (online)
 global.mods = ['6282229217681']
 global.prems = ['6282229217681']
 global.nomorbot = '6285341725791'
-global.nameown = 'ɪɴᴏʀʏ ᴀɴᴅ ᴡᴀʜᴀʙ'
+global.nameown = '𝘐𝘯𝘰𝘳𝘺 𝘢𝘯𝘥 𝘞𝘢𝘩𝘢𝘣'
 global.nomorown = '6282229217681'
 global.nomorown1 = '6282229217681'
 global.nomorown2 = '6282229217681'
@@ -75,14 +75,14 @@ global.limitawal = {
 
 global.readMore = readMore
 global.gcname = '𝗘𝗹𝗮𝗶𝗻𝗮 𝘉𝘰𝘵𝘻'//nama group kalian
-global.author = 'ɪɴᴏʀʏ ᴀɴᴅ ᴡᴀʜᴀʙ' //ganti aja cuyyy
+global.author = '𝘐𝘯𝘰𝘳𝘺 𝘢𝘯𝘥 𝘞𝘢𝘩𝘢𝘣' //ganti aja cuyyy
 global.namebot = '​𝗘𝗹𝗮𝗶𝗻𝗮-𝘉𝘰𝘵𝘻' //nama bot luh
 global.wm = '© 𝗘𝗹𝗮𝗶𝗻𝗮-𝘉𝘰𝘵𝘻' //ganti aja
 global.media = 'https://telegra.ph/file/95012f4f8f53079f3455a.jpg' //bebas
 global.wm = '𝗘𝗹𝗮𝗶𝗻𝗮-𝘉𝘰𝘵𝘻 ' //wm nyaa kocak
 global.watermark = wm //bebas
-global.wm2 = 'ɪɴᴏʀʏ ᴀɴᴅ ᴡᴀʜᴀʙ' //ganti ajaa
-global.wm3 = '𝗘𝗹𝗮𝗶𝗻𝗮 𝘉𝘰𝘵𝘻 𝘣𝘺 ɪɴᴏʀʏ ᴀɴᴅ ᴡᴀʜᴀʙ' // ganti jugaa
+global.wm2 = '𝘐𝘯𝘰𝘳𝘺 𝘢𝘯𝘥 𝘞𝘢𝘩𝘢𝘣' //ganti ajaa
+global.wm3 = '𝗘𝗹𝗮𝗶𝗻𝗮 𝘉𝘰𝘵𝘻 𝘣𝘺 𝘐𝘯𝘰𝘳𝘺 𝘢𝘯𝘥 𝘞𝘢𝘩𝘢𝘣' // ganti jugaa
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`//ga usah dehhh 
 global.bottime = `T I M E : ${wktuwib}` //ini juga ga usah 
 global.titlebot = `𝗘𝗹𝗮𝗶𝗻𝗮-𝘔𝘋 | 𝘐𝘯𝘰𝘳𝘺 𝘢𝘯𝘥 𝘞𝘢𝘩𝘢𝘣` //ganti aja

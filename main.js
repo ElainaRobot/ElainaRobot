@@ -169,7 +169,7 @@ let welc = `
 
                 *W E L C O M E*
 
-✦𝘉𝘌𝘉𝘈𝘕 𝘔𝘌𝘕𝘈𝘔𝘉𝘈𝘏✦
+✦ 𝘉𝘌𝘉𝘈𝘕 𝘔𝘌𝘕𝘈𝘔𝘉𝘈𝘏(* ￣︿￣) ★
 ⫹⫺ @subject
 
 ⫹⫺ *DESCRIPTION*
@@ -182,6 +182,9 @@ let lef =
 👋 Byee @user
 
                 *G O O D B Y E*
+                
+✦ 𝘕𝘐𝘊𝘌 𝘉𝘌𝘉𝘈𝘕 𝘒𝘌𝘓𝘜𝘈𝘙≧◉◡◉≦ ★
+           ヾ(￣▽￣)Bye~
                 
                 
 ${botdate}`
