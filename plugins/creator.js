@@ -5,7 +5,7 @@ let pp = await conn.profilePictureUrl(who).catch(_ => hwaifu.getRandom())
 let name = await conn.getName(who)
 
 if (command == 'creator') {
- let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:WhatsApp; 𝘐𝘯𝘰𝘳𝘺 𝘢𝘯𝘥 𝘞𝘢𝘩𝘢𝘣\nNICKNAME:👑 Owner 𝗘𝗹𝗮𝗶𝗻𝗮-𝘉𝘰𝘵𝘻\nORG: 𝗘𝗹𝗮𝗶𝗻𝗮 XD\nTITLE:soft\nitem1.TEL;waid=6282229217681:+62 822-2921-7681\nitem1.X-ABLabel:📞 Nomor Owner\nitem2.URL:https://s.id/Cerdasin62\nitem2.X-ABLabel:💬 More\nitem3.EMAIL;type=INTERNET: wahabandher1@gmail.com\nitem3.X-ABLabel:💌 Mail Owner Elaina-Botz\nitem4.ADR:;;🇮🇩 Indonesia;;;;\nitem4.X-ABADR:💬 More\nitem4.X-ABLabel:📍 Lokasi Saya\nBDAY;value=date:🔖 ,26 Juni 2006\nEND:VCARD`
+ let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:WhatsApp; 𝘐𝘯𝘰𝘳𝘺 𝘢𝘯𝘥 𝘞𝘢𝘩𝘢𝘣\nNICKNAME:👑 Owner 𝗘𝗹𝗮𝗶𝗻𝗮-𝘉𝘰𝘵𝘻\nORG: 𝘐𝘯𝘰𝘳𝘺 𝘢𝘯𝘥 𝘞𝘢𝘩𝘢𝘣\nTITLE:soft\nitem1.TEL;waid=6282229217681:+62 822-2921-7681\nitem1.X-ABLabel:📞 Nomor Owner\nitem2.URL:https://s.id/Cerdasin62\nitem2.X-ABLabel:💬 More\nitem3.EMAIL;type=INTERNET: wahabandher1@gmail.com\nitem3.X-ABLabel:💌 Mail Owner Elaina-Botz\nitem4.ADR:;;🇮🇩 Indonesia;;;;\nitem4.X-ABADR:💬 More\nitem4.X-ABLabel:📍 Lokasi Saya\nBDAY;value=date:🔖 ,26 Juni 2006\nEND:VCARD`
 const tag_own = await conn.sendMessage(m.chat, { contacts: { displayName: wm, contacts: [{ vcard }] }}, { quoted: fkontak })
 let caption = `👋 Hai *@${who.split("@")[0]}*, Nih Owner Saya kak`
     await conn.sendButton(m.chat, caption, author, null, [['👨Sapa Owner', 'Huuu']], m, { quoted: fkontak, mentions: conn.parseMention(caption) })

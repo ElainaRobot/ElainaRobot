@@ -35,7 +35,7 @@ ptt: false, seconds: 0,contextInfo: {
     description: 'www.instagram.com/l4c1f2r',
     title: "Now Playing...",
     body: wm,
-    thumbnail: await (await fetch('https://telegra.ph/file/43b370e435af55c71ebbc.jpg')).buffer(),
+    thumbnail: await (await fetch('https://telegra.ph/file/fda0d5f182e19e1f17419.jpg')).buffer(),
     sourceUrl: 'www.instagram.com/l4c1f2r'
  	  /*   sourceUrl: sig,
            title: '◄⟬ ●━━━ ⧏ ⧎ ⧐ ━━━● ⟭►',  

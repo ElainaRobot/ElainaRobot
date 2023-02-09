@@ -21,7 +21,7 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `${htki} *BIODATA* ${htka}
 ${htjava} *💌 Nama* : WahabModz
-${htjava} *✉️ Nama RL* : HAMBA TUHAB
+${htjava} *✉️ Nama RL* : HAMBA TUHAN
 ${htjava} *♂️ Gender* : boys
 ${htjava} *🕋 Agama* : Islam
 ${htjava} *⏰ Tanggal lahir* : Private 🥶
